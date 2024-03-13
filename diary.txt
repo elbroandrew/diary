@@ -1,0 +1,416 @@
+-прошел небольшой курс PySpark (курс был на Scala)
+
+-олифер и олифер
+
+-bash
+
+-через ssh подключился с win10 cmd к ubuntu (скопировал два bash файла с урока по баш из убунту на вин10 desktop).
+
+-немного теории и практики докер (запустил контейнер с sql server, поразбирался с настройками в docker compose файле yaml).
+
+-Udemy Colt Stele Data Structures (создал Linked List). 
+
+- сделал binary tree, BT search & breadth-first search на питоне с очередью.
+
+-прошел на степике курс по С++, потренировался на убунту компилировать код на С++, создал репо на гитхабе с упражнениями.
+
+-немного поизучал ассемблер,
+
+-изучение tkinter, продолжил доделывать свой проект Погодное приложение. Работа с классом, с логированием, classmethods, context manager.
+
+-Django курс на ютуб у selfedu.
+
+-школа мониторинга Slurm (метрики, алерты) посмотрел.
+
+-NetworkChuck(SQL, Docker, Docker networking 7 types of VMs networks, BASH, subnetting, Linux Processes, Kubernetes )
+
+-Читал книгу "Network Computing" - Ross.
+
+-Otus Linux настройка apache2, nginx сервера, wsgi, uwsgi, настройка на убунту.
+
+-видео работа с файлами в питоне, с бинарными файлами (Otus QA Python).
+
+-видео лекции ОТУС по Линукс (10 р. видеокурс). (ОС, кольца защиты, их 2 в нынешних ОС, это аппаратное разделение, а в проц х86 было 2, но в МС ДОС не использовала их совсем, доступ ко всем устройствам из любой программы был. В интел 80386 было 4, но МС ДОС превращала его в х86, т.к. не использовала кольца, в итоге Линус Торвальдс написал Линукс, по интел 80386). Ядра бывают монолитное (линукс, точнее монолитно-модульное), микроядро и гибридное (виндовс), основные команды, пользователи.
+
+-OTUS видео по Docker для QA Python. Собрал в докере простой проект с тестом и с Dockerfile, скачал докер образ питон 3.10.
+
+-Stepik Алгоритмы и структуры данных.
+
+-golang (interfaces, modules)
+
+-Лекции Тимофей Хирьянов по алгоритмам на питоне.
+
+-otus next.js туториал
+
+-вебинар, как настроить LAMP сервер на ubuntu.
+
+-Udemy SocketIo изучение, что такое Web sockets (NodeJS). Создал сервер с socketio на Питоне и Flask, и клиент на JS, сделал коммуникацию между ними (по нажатию кнопки отправляется сообщение на сервер). Чтение статей о Long Polling, Short Polling, XHR Ajax. (WebSocket - это протокол, как HTTP, application level, а так же JS библиотека для такого соединения; SocketIO - другая библиотека, которая может и в вебсокет соединение, и в long polling -- вообще polling, но потом апгрейдится до websocket, когда надо. Сразу может не работать вебсокет. Поэтому лучше Websocket библиотеку использовать).
+
+-поразбирался с JSON:API; RPC; (SOAP, JSON-RPC, gRPC - всё RPC) и еще есть REST (RESTful сервисы, которые не следуют REST; JSON:API; GRAPHQL).
+
+-изучение SOLID принципов; Dependency Injection;
+
+-python MRO;
+
+-python modules (sys.path.append)
+
+-learn python book 'Python Network Programming', doing exercises, push them into repo on github.
+
+-learn python logging.
+
+-написал консольное приложение для получения погоды (request, argparse)
+
+-learning C, arrays, pointers (selfedu).
+
+-изучение ОС, треды, файл дескриптор.
+
+- 23-05-23 лекции Отус по Линукс (процессы, демоны, утилита top, сироты, зомби).
+
+-24-05-23 изучаю Neovim, его конфиг, плагины как подключить, настройки под питон автокомплит как сделать, обновил вим, чит шит скачал с командами.
+
+- FastCGI, CGI, websockets (socket.io & websockets работают на разных уровнях OSI )
+
+-бесплатный курс по go на яндекс практикум.
+
+-26-06-23 Crafting test-driven software with python -- A.Molina (pytest, unittest упражнения проделал из книги).
+
+30-06-2023 развернул простой скрипт с фласком на убунту + uwsgi + nginx (настройка путей, конфигов немного)
+
+30-06-23 создал простой  веб сервер на Го, и через curl сделал post запрос.
+
+04-07-23 на убунту создал TCP socket & UDP socket с питоном.
+
+05-07-23 VK Техносфера лекция по корутинам и каналам в Perl с библ Coro. (очень похоже на Go).
+
+06-07-23 разбор корутин, куча материала прочитал, gevent, greenlets.
+
+07-07-23 (в течение нескольких дней) изучение докера от rebrain (видео на ютубе) (запустил фласк приложение из предыдудщего урока про wsgi, но без wsgi; создал контейнер , куда скопировал файл фласк app; затем запустил в контейнере и открыл в браузере - всё работает). -- знаю как создать, удалить контейнер, сбилдить образ, команды RUN, CMD, ENTRYPOINT, FROM что такое. Слои, merged слой, сеть (как контейнеры сообщаются и порты форвардятся, здесь не NAT, a PAT даже). Как создать бридж (т.е. еще одну сеть).
+
+11-07-23 Udemy, Colt Steele, algorithms, продолжение с бинарными деревьями изучение, поиск в ширину (три вида рекурсивно). Чтение книги по линуксу на англ. Brian Ward How Linux Works.
+
+13-07-23 Udemy. Графы. Обход в глубину. Реализовал на питоне.
+
+14-07-23 BFS for undirected graph, python, c# unity.
+
+17-07-23 python os, shutil zip, archive, os.walk;
+
+18-07-23 видео презентация asgi, uvicorn; создал простое приложение, запустил на uvicorn; применил простой middleware;
+
+Чтение и практика по книге "Python for DevOps learn ruthlessly effective automation".
+
+19-08-23 купил курс Docker + Ansible - с нуля, деплой и управление Swarm   на Степике. Чтение книги по MySQL (Vinicius M. Grippa, Sergey Kuzmichev - Learning MySQL_ Get a Handle on Your Data )
+
+28-08-23 практиковался в Flask'e, сделал загрузку файла на сервер.
+
+01-09-23 чтение и практика по книге Flask, FastAPI разработка.
+
+02-09-23 Stepik, курс Scala для начинающих, хвостовая рекурсия (хвостовая, значит компилятор сможет её оптимизмровать до обычных циклов).
+
+03-09-23 и еще до этого просмотр 8 часовой курс Database Design Course - Learn how to design and plan a database for beginners -- Caleb Curry. 
+
+05-09-23 python open file; write; writelines; и запись в файл через print;
+
+06-09-23 python iterator; iterable; generators;
+
+08-09-23 login, non-login, interactive, non interactive shell; и некоторые команды;
+
+09-09-23 изучение линукс, useradd, passwd; groups; userdel;  LPIC  курс by Jadi.
+
+11-10-23 изучение Vim, LPIC Jadi crontab -e, system wide crontab, at, systemd timers;
+
+12-09-23 VK техносфера лекции по Perl, сетям, ОС.
+
+13-09-23 VK техносфера, WEB, http; Cookies, Headers, SSL/TLS. Написал простой ТСР сервер и клиент сам на питоне, с помощью доков и схемы из лекции ВК по Перл.
+
+14-09-23 Docker + Ansible - с нуля, деплой и управление Swarm   на Степике.  Изучение Docker. Контейнеры, состояния. Layers, layerFS.
+
+15-09-23 Youtube видео Проектирование базы данных в MS Access. Продолжение курса Докер на Степик.
+
+16-09-23 SQL по книге Using MySQL, MS SQL, Orcale by examples -- Svyatoslav Kulikov. (DISTINCT, COUNT(*) )
+
+17-09-23 Продолжение курса Докер на Степик. Multistage build, network (bridge, host, null). Volumes. Создал два контейнера и настроил их в одну сеть.
+
+18-20-09-23 Траблшутинг Airflow (подключение). Linux systemd services.
+
+19-10-23 rebrain лекция о репликпции db; cap теорема.
+
+20-10-23 Otus, Nginx, балансировка: Round Robin, least connection; ip_hash; hash; random least conn. Docker + Ansible - с нуля, деплой и управление Swarm, docker: volumes (volume, bind, tmpfs); docker-compose.
+
+Heisenbug лекция о нагрузочном тестировании через python locust.
+
+22-10-23 Stepik - Docker + Ansible - с нуля, деплой и управление Swarm; 
+
+24-10-23 Видео на ютубе докер, гитлаб джоба, настройка пайплайна.
+
+26-10-23 Stepik, MLOPS курс, изучение airflow и запуск dag;
+
+30-10-23 Чтение книги и упражнения Python concurrency with asyncio Mathew Fowler. Треды, эвент луп, сокеты, корутины.
+
+31-10-23 изучение sticky bit, permissions; Лекция ВК Техносфера Системное программирование на Perl. Асинхронно-событийное программирование; LPIC by Jadi, networking, subnetting, CIDR - это маска подсети. 
+
+Asyncio: await coroutine; tasks; 
+
+01-11-23 изучение модуля 'operator' в питоне; timeit module: py -m -s "(lambda x, y: x+y)(5,6)"; Stepik Devops Ansible Docker;   Book: Python concurrency with asyncio Mathew Fowler.: futures, cancelled tasks; shield a task;
+
+02-11-23 ubuntu troubleshooting disk space issue; Stepik - Docker + Ansible - с нуля, деплой и управление Swarm; docker compose from many files; Asyncio book Python concurrency with asyncio Mathew Fowler; LPIC with Jadi, network; Чтение доков по корутинам, таскам и фьючам.
+
+03--05-11-23 Python, Flask делаю своё приложение Конвертор blp файлов в png.
+
+06-11-23 Хабр статья и немного сам попробовал как в Линукс подменить дескриптор, в который пишем. А так же selfedu Flask на ютубе курс.
+
+07-11-23 Python, Flask делаю сво приложение Конвертор blp файлов в png, добавил возможность загрузить файл. selfedu Flask, при запросе создается контекст приложения (g, app_current) и потом контекст сессии (request). Иногда контекст прил-я не создается. 
+
+08-11-23 WSGI ютуб видео. Запустил свой скрипт на gunicorn. Greenlets, gevent видео с конфренции PyCon. 
+
+17-11-23 python descriptor selfedu; non data descriptor; data descriptor;
+
+12-12-23 ВК Техносфера, процессы, форк (инит, у него дочерн проц баш порождает группу с процессом, а в ней форкаем еще процесс2, если родительский процесс1 хлопнуть, то наш процесс2 станет дочерним для init).
+
+13-12-23 Прохождение курса Stephen Grider Docker & Kubernetes, Udemy.
+
+14-12-23 Изучение python модуля os, os.remove; glob, fnmatch; попытки написать скрипт и удалить файлы из папки через данные модули. Курс кубернетис и докер на Udemy.
+
+15-12-23 Asyncio, и попробовал скрипт для удаления файлов переписать с тасками. Докер лекции на Udemy; так же C#.
+
+16-12-23 Докер лекции на Udemy; простое Nodejs приложение, создать образ и развернуть в контейнере.
+
+17-12-23 Rebrain видео, мониторинг nginx под нагрузкой. Nginx context (main -> events, http, stream); nginx location section; Youtube API lecture;
+
+18-12-23 Rebrain nginx продолжение; PHP7 в подлиннике книга.
+
+19-12-23 LPIC Jadi Persistent network configuration; FB course GIT BLAME <FILE_NAME>; Изучение CURL (сохранить  html страницу; get headers only -I; dont use -X - так как для всех запросов сработает даже для редиректа;)
+
+Изучение docker-compose --build   - курс Docker & Kubernetes Udemy; Посмотрел видео по Vagrant, Rancher, как создать vagrantfile.
+
+20-12-23 Чтение статей о stack, stackless languages; stack frame, что стек фрейм сохраняет состояния в куче, а не в стеке. Lazy evaluations; 
+
+Лекция ютуб загрузка ядра линукс (кнопка запуск - биос (проверка портов) - проверка оборуд? - запуск первого загрузчика (МБР, 512кб, там же 4 партиции, это старый МБР, новый UEFI описывает все партиции) - передача второму загрузчику GRUB (папка /boot grub.cfg;  initrd/) - kernel (init оборуд, file sytem; drivers; запуск первого процесса /sbin/init - это симлинк из sysV для /lib/systemd/systemd ).
+
+FB Django лекция 5 часов, Ютуб.
+
+22-12-23 Celery, Flask, converter app;
+
+23-12-23 python request, request.session vs aiohttp, httpx (несколько гет запросов из request делают каждый раз новый запрос, можно использовать сессию. В httpx можно так же запросы поместить в асинк таски asyncio);
+
+24-12-23 HLSL shaders Monogame
+
+25-12-23 OpenGL shader; Command game pattern from a C++ book; Libgdx;
+
+26-12-23 задачка с CodinGame; 
+
+27-12-23 sliding window техника. Flask youtube, selfedu, cookies, sessions, session.modified; session.persistent; LPIC1 Semaev,  
+
+nl file.txt;  -- выведет нумер строки.
+
+sed -e 's/word1/word2/'  file.txt ;  -- заменит слово
+
+find /where -name "[!A-Z] .txt" 
+
+find /where -size -5M
+
+find /where -ctime +5 -- файлы больше 5 дней или -atime
+
+gzip, bzip, xz  -- компрессоры
+
+cvf, xvf, 
+
+tar cvfz archive.tar.gz  -- архиватор использует gzip
+
+28-12-23 
+
+лекция Rebrain Linux; proc/meminfo ; free -m ; кернел может выделить больше памяти, чем есть в наличии; oomkiller (если вирт памяти для процесса не хватает, просыпается оомкиллер и киляет другие процессы, освоб память). proc/sys/vm/overcommit_*
+
+sysctl -a -- отображает настройки ядра. К любому элементу можно перейти так же в proc/sys/vm/<что-то там>
+
+swap существует для анонимных страниц памяти.
+
+top, затем "o" клавишу нажать, затем вписать COMMAND=<my process>; чтоб выйти, нажать "="
+
+ps, pstree, pgrep, pkill, top, uptime, screen, fg, bg, nohup
+
+приоритеты у любой запущ прогр от -20 до + 19.
+
+ps -eo user,pid,pcpu,nice,comm
+
+nice/renice -- renice 5 -p <pid>
+
+grep, egrep, sed -- ps -eo user,pid,nice,comm | grep -n '\<st'     (мой файл был "start.py" запущен как процесс).
+
+Потренировался написать баш скрипт, вызвать из него питон скрипт.
+
+Udemy Docker Kuber course; docker-compose ps;
+
+29-12-23 JWT token, youtube video Golang app. Инфу в JWT токене видно, он закодирован просто, но не зашифрован. С auth сервиса отправляется токен с подписью нашему юзеру, а от него уже запрос идет на 
+
+другой сервис, тот сервис проверяет его токен и декодирует его. Если в токене инфа будет поменяна юзером, то инфа будет кривая.
+
+30-12-23 Rebrain лекция Линукс  top, load average - за последние 1 минуту, 5 минут и 15 минут.  (0,51, 0,72, 0,86 - если один ЦПУ, значит загружен на 51%, но процессы только R и D - running & disk sleep).
+
+(1,73, 0,60, 7,98 на однопроцессорной системе, что означает, что за последнюю минуту система перегружена на 73%, а за 15 минут — на 698%, загрузка системы уменьшается.) Первая цифра должна быть меньше
+
+количества процессоров (ядер). Процессы со статусом D никак не завершить, только перезагрузка.
+
+ps отсортировать по ppid ascend order (-ppid for descend): ps -eo user,pid,ppid,cmd --sort=+ppid
+
+создал процесс зомби в питон скрипте, проверил через ps, что у него статус <defunct>  -- т.е. он зомби.  In other words, you can easily get a zombie process as long as you meet two conditions:
+
+Parent process blocking (sleep)
+The subprocess ends execution and waits for recycling
+
+цикл процесса: fork - в линуксе это синоним clone, затем exec какой-то программы, затем по окончанию вызвов сис кола exit, а родительсский процесс ждёт wait в этот момент. Дочерний выгружает из памяти
+
+ресурсы, и становится зомби всегда. Если род проц не может принять в wait, то дочерний так и висит зомби с флагом defunct. 
+
+форк завершается в двух процессах срауз, в род проц возвращает пид род проц, а в дочерн возвращает 0, так и определяет кто из них кто.
+
+useradd потренировкался, сделал юзера, сменил имя, хом директори появляется (папки десктоп, видеос и тд), когда я вхожу в систему этим юзером, т.е. когда его десктоп прогружается, т.е. папки появляются
+
+в зависимости от десктопного менеджера. Надо перед переменовыванем юзера хлопнуть процессы его sudo pkill -u testuser;  переименовать хом директори: sudo usermod -d /home/sara -m sara
+
+31-12-23   проверить, есть ли сервис в автозапуске: ls /etc/systemd/system/multi-user.targets.wants - там моего сервиса не будет, а появится после того как я сделаю
+
+systemctl enable <my service name>
+
+вывести список зависимостей для юнита: systemctl list-dependencies nginx.service 
+
+вывести список юнитов, зависящих от этого юнита: systemctl list-dependencies nginx.service --reverse
+
+одни юниты могут конфликтовать с другими, например, firewalld & iptables; в этом случае одно выключит другое. Посмотреть конфликты можно в cat /usr/lib/systemd/system/nginx.service 
+
+там будет строка новая "conflicts". Чтоб не запустился некий сервис, который может создать конлфикт, например, у меня работает firewalld, а я не хочу запускать iptables случайно, то маскирую iptables
+
+systemctl mask iptables;  -- файлы в /etc/sytemd имеют приоритет над /usr/lib/systermd, то это сделает невозможным случайный запуск iptables;
+
+GREP внутри файлов:
+
+можно вывести файлы, в которых мне что-то надо найти, (только в файлах поиск), например, у меня есть текстовый файл, а в нём слово "Country", захожу в директорию с файлом и пишу:
+
+grep  Country *.txt  -- искать Country в файлах с расшир txt.
+
+получу 
+
+script.sh:read COUNTRY
+
+script.sh:echo -n "Country name is: $COUNTRY\n"
+
+script.sh:case $COUNTRY in
+
+или с игнорированием заглавной буквы:
+
+grep -i country *.txt
+
+или с выводом определённого кол-ва строк:
+
+grep -im2 country, где m[number] выведет две строки в данном случае.
+
+systemctl get-default - по умолчанию загружает графич юнит.
+
+сменить можно на текстовый:
+
+systemctl set-default multi-user.target
+
+01-01-24 видео ютуб, создание архиватора на Го
+
+06-01-24 Flask login selfedu youtube; LPIC2 Semaev;
+
+07-01-24 LPIC2 Semaev; Flask selfedu;
+
+08-01-24 Высоконагруженные приложения книга.  selfedu Flask blueprint;
+
+09-01-24 Высоконагруженные приложения книга.  selfedu Flask blueprint; Semaev LPIC2;
+
+10-01-24 stepik, ansible, playbook, variables, debugger;
+
+18-01-24 java qa test automation + мой Flask проект; signUp test case;
+
+19-01-24 java qa test automation + мой Flask проект; негативный тест;
+
+26-01-24 stepik, ansible;
+
+27-01-24 from collections import defaultdict;
+
+01-02-24 stepik Ansible;
+
+02-02-24 python collections module: deque (maxlen=3); namedtuple('Cat', "name age color"); defaultdict; OrderedDict;
+
+03-02-24 kaggle изучениие очистки данных от пропущенных значений.
+
+04-02-24 что такое вебхук
+
+05-02-24 kaggle data cleaning;  изучение redis в моем приложении converter;
+
+06-02-24 разбирал, как устроено приложение на NEST.JS из курса Докер, Ansible stepik; dotenv в питоне и как хранить переменные окружения; Udemy видео Travis CI;
+
+07-02-24 pyspark + posgresql (docker container); pandas, работа с csv файлом (очистка п окурсу от kaggle); python challenge сайт- делал всякие задачки, на связный список, регэкспы, реквест библиотека.
+
+08-02-24 learning Flask + Redis sessions; чтение книги по питону "Fluent Python"; 
+
+09-02-24 чтение книги по питону "Fluent Python";  flask sessions learning; Udemy pytest course;
+
+10-02-24 defensive copy python; лекция 6 классы (defensive copy; slots).
+
+11-02-24 Udemy смотрел видео по курсу Flask + pytest;
+
+12-02-24 Python iadd ( +=), rmul (mul - берет элемент слева, rmul - справа); int - has no type overflow by design, but float has type overflow (sys.float.info); Подключение Celery к моему проекту Converter; super and mro (super всегда идет по mro).
+
+13-02-24 прикручиваю Celery к моему конвертеру, продожаю разбираться с Flask'ом; лекции ютуб по питону - можно в декораторы оборачивать и классы, и у них изменять поведение методов таким образом; чтение книги по питону "Fluent Python" -- lists
+
+14-02-24 прикручиваю Celery к моему конвертеру, продожаю разбираться с Flask'ом & Celery; чтение книги по питону "Fluent Python"
+
+15-02-24 Golang + rabbitmq туториал; питон лекция CSC обработка ошибок; продожаю разбираться с Flask'ом & Celery 
+
+16-02-24  питон лекция CSC (with); продожаю разбираться с Flask'ом & Celery 
+
+17-02-24 дескрипторы в питоне видео ютуб; продожаю разбираться с Flask'ом & Celery ; Django, redis, celery tutorial;
+
+18-02-24 docker network; 
+
+19-02-24 продолжаю разбираться с Flask'ом & Celery;   -- вроде разобрался - надо запускать celery worker отдельным процессом, а не из фласка.
+
+21-02-24 Beeline Cloud - небольшой курс по докер, кубернетис и практика.
+
+22-02-24 Trie - структура данных, префикс дерево. Beeline Cloud Data Engineer курс -- здесь было интересное видео, как МЛ модель ищет слова.
+
+23-02-24 Udemy docker, kuber курс продолжение; ещё поделал на хекслет проект Поисковый движок, поразбирался с poetry, pytest; запуск в github actions; Начал смотреть курс Posgresql;
+
+LPIC102 Semaev -- crontab управление пользовательскими задачами в /var/spool/cron/crontabs - сами юзеры свои задачи задают здесь, а от имени рута заношу в sudo vim /etc/crontab или в директории 
+
+с почасовыми, ежедневными, еженедельными задачами (директории /etc/cron.hourly ; /etc/cron.daily ...)
+
+crontab -l  -- (буква Л) выводит задачи для текущего пользователя.
+
+crontab -e -- позволяет задать задачу (предложит выбрать редактор)
+
+24-02-24 SQL курс, создание таблиц one-to-many; many-to-many и тд. Файловые системы, сектора диска (4096)
+
+25-02-24 Порешал задачу на sadservers по линуксу (найти файл и процесс).
+
+27-02-24 LPIC102, Semaev, syslog;  man; 
+
+29-02-24 изучаю MAN по видео из ютуба; Netology бесплатный курс по анализу данных на питоне в google colab (pandas очистка от дубликатов);
+
+Linux Кетов лекция, как линукс работает изнутри, shared objects, kernel modules; lsmod; модули лежат в /lib/modules/...
+
+01-03-24 Кетов Linux ютуб лекции, Основы Linux: пользователи и вход в систему who, whoami, w, users;  Командная строка (whatis date, whatis intro;  apropos remove - находит команду для удаления и можно так искать другие команды, если знаю англ слово). Nemeth загрузка системы как происходит.
+
+02-03-24 young&&yandex видео по нагрузочному тестированию, какие типы бывают; ШБР 2023 — Девопс, деплой, CI/CD. Часть 1
+
+03-03-24 CCNA курс Udemy. Установил Packet Tracer от циско на убунту, создал клиент и сервер, запустил пакет, посмотрел данные в нём какие передаются и тд.
+
+Чтение книги Python for Devops, grep (filter 'grep -v grep'), find (find and delete all .pyc files and pycache dirs)
+
+04-03-24 CCNA Networking Devices. Repeaters, Hubs, Switches and Routers; Firewalls, IDS, IPS and WLC
+
+05-03-24 sed; vim настроил на убунту для питона и темы; grep по курсу степик Linux;
+
+07-03-24 Кетов, ютуб, Основы Linux: дерево каталогов, файловые системы и файлы; man 7 hier -- описывает иерархию каждого каталога;
+
+09-03-24 Кетов, ютуб, Основы Linux: дерево каталогов, файловые системы и файлы; i-node, UFS, имена файлов хранятся в каталоге. hardlink - только внутри 1 файловой системы работает, symlink - может ссылаться на другую файл систему. Симлинки появились позднее. stat <filename> -- посмотреть метаданные (inode);
+
+10-03-24 Кетов. Ютуб. дерево каталогов, файлы
+
+11-03-24 Кетов, Ютуб, Основы Linux: разграничение прав доступа и потоки ввода-вывода.
+
+12-03-24 Кетов, Основы Linux: разграничение прав доступа и потоки ввода-вывода. suid, guid - exec(), sticky bit (t) -  для write();  find /usr/bin -perm /u+s -ls   -- искать файлы с разрешением u+s и вывести с флагами -ls как это сделала бы команда ls .
+
+
